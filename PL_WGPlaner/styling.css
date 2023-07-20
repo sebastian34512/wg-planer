@@ -1,0 +1,180 @@
+﻿
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    font-family: Arial;
+    width: 400px;
+    margin: 0 auto;
+    background-color: #FFF0E0;
+}
+
+h1{
+    font-size: 25px;
+    font-family: Arial;
+    padding-bottom:0px;
+    margin-bottom:0px;
+    padding-top:5px;
+    color: #2B3858;
+    text-align: center;
+    border-bottom: 0px;
+}
+
+h2 {
+    font-size: 12px;
+    font-family: Arial;
+    color: #2B3858;
+    padding-bottom: 5px;
+    padding-top: 0px;
+    border-top: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    font-family: Arial;
+    color: #69A728;
+}
+
+
+
+
+nav {
+    background-color: #E5CDB3;
+    margin-top: 150px;
+   
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    
+    
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    padding:20px;
+   
+}
+
+img {
+    display: flex;
+    justify-content: center;
+}
+
+#content {
+    display: flex;
+    width: 400px;
+    background-color: #FFF0E0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow: scroll;
+    padding-bottom: 150px;
+    padding-left: 10px;
+    padding-right:10px;
+
+    text-align: center;
+}
+
+
+
+#form1 {
+    display: flex;
+    padding: 20px;
+  
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+
+form {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    
+}
+
+input{
+    padding:10px;
+    margin: 5px;
+}
+
+
+
+#btn_login, #btn_zurRegistrierung, #btn_Registrieren, #btn_zumLogin, #btn_Einkaufliste, #btn_GruppeErstellen, #btn_GruppeBeitreten, #btn_Wochenplaner, #btn_ToDoListe, #btn_AddItem, #btn_Hinzufuegen, #btn_AufgabenBearbeiten, #btn_hinzufügen, #btn_hinzufuegen, #btn_mitgliederEinsehen, #btn_meinKonto, #btn_Ausloggen, #btn_Speichern {
+    border-radius: 16px;
+    padding: 10px;
+    background-color: #A09BEF;
+}
+#btn_gruppeLoeschen {
+    border-radius: 16px;
+    padding: 10px;
+    background-color: red;
+}
+
+#btn_zurueck {
+    margin-right: 330px;
+    border-radius:16px;
+    background-color: #4D5EAE;
+}
+
+.button:hover {
+    background-color: #4D5EAE;
+}
+
+#aktuelles{
+    border:solid;
+    border-radius: 10px;
+    border: 1px;
+    background-color: #69A728;
+    padding: 25px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+#gruppenid {
+    border: solid;
+    border: 1px;
+    background-color: #69A728;
+    padding: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#tabelle{
+    margin-left:60px;
+}
+
+#tabellewoche{
+    margin-left:75px;
+}
+
+#kalender{
+    margin-left:100px;
+}
+
+#todo{
+    margin-left:30px;
+}
+
+
+
+
+@media only screen (max-width:550px) {
+    body{
+       
+    }
+}
